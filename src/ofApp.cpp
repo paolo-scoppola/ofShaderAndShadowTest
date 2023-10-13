@@ -10,14 +10,14 @@ void ofApp::setup(){
     planeParams.setName("Plane");
     planeParams.add(useMaterial.set("Use Material",true));
     planeParams.add(wireframe.set("Wireframe",true));
-    planeParams.add(noiseAmplitude.set("Displacement",0.0f, 0.0f, 255.0f));
+    planeParams.add(noiseAmplitude.set("Displacement",0.0f, 0.0f, 1.0f));
     planeParams.add(noiseScale.set("Noise Scale",0.0f, 0.0f, 0.1f));
     planeParams.add(noiseSpeed.set("Noise Speed",0.0f, 0.0f, 1.0f));
     
     parameters.add(planeParams);
     
     materialParams.setName("Material");
-    materialParams.add(displacementStrength.set("Displacement Strength", 0.0, 0.0, 500.0));
+    materialParams.add(displacementStrength.set("Displacement Strength", 0.0f, 0.0f, 1.0f));
     materialParams.add(displacementNormalsStrength.set("Displacement Normals Strength", 0.0, 0.0, 10.0));
     materialParams.add(normalGeomToNormalMapMix.set("Normal Geom To Normal Map Mix", 0.0, 0.0, 1.0));
     
