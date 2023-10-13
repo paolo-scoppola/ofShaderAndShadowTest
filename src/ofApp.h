@@ -13,18 +13,22 @@ class ofApp : public ofBaseApp {
 	
 	ofShader shader;
 	ofPlanePrimitive plane;
-	ofImage img;
+	ofFloatImage img;
     
      vector< shared_ptr<ofLight> > lights;
     ofEasyCam camera;
     ofMaterial material;
     ofMaterial boxesMaterial;
+    
+    ofVideoGrabber vidGrabber;
+    int camWidth;
+    int camHeight;
 
     void renderScene();
     
     ofParameterGroup planeParams;
     ofParameter<bool> useMaterial;
-    ofParameter<bool> wireframe;
+    ofParameter<bool> useCamera;
     ofParameter<float>  noiseAmplitude;
     ofParameter<float>  noiseScale;
     ofParameter<float>  noiseSpeed;
