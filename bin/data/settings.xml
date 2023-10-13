@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<settings>
+	<Use_Material>1</Use_Material>
+	<Noise_Scale>0.0555</Noise_Scale>
+	<Noise_Speed>0</Noise_Speed>
+	<Noise_Amplitude>67.575</Noise_Amplitude>
+	<Displacement>65.025</Displacement>
+	<Plane>
+		<Use_Material>1</Use_Material>
+		<Displacement>111.58</Displacement>
+		<Noise_Scale>0.0164842</Noise_Scale>
+		<Noise_Speed>0</Noise_Speed>
+		<Wireframe>0</Wireframe>
+	</Plane>
+	<group>
+		<Displacement_Strength>106.061</Displacement_Strength>
+		<Displacement_Normals_Strength>3.83838</Displacement_Normals_Strength>
+		<Normal_Geom_To_Normal_Map_Mix>0.59596</Normal_Geom_To_Normal_Map_Mix>
+		<Diffuse_Color>0.355355, 0.525703, 1, 1</Diffuse_Color>
+		<Shininess>181.818</Shininess>
+		<Specular_Color>1, 0, 0, 1</Specular_Color>
+		<Roughness>0.320707</Roughness>
+		<Metallic>0.734848</Metallic>
+		<Reflectance>0.575758</Reflectance>
+		<Ambient_Color>0, 0, 0, 1</Ambient_Color>
+		<Emissive_Color>0, 0, 0, 1</Emissive_Color>
+	</group>
+	<Material>
+		<Displacement_Strength>104.798</Displacement_Strength>
+		<Displacement_Normals_Strength>1.69192</Displacement_Normals_Strength>
+		<Normal_Geom_To_Normal_Map_Mix>0.54798</Normal_Geom_To_Normal_Map_Mix>
+		<Shininess>0.124438</Shininess>
+		<Roughness>0.0562559</Roughness>
+		<Metallic>0.0259529</Metallic>
+		<Reflectance>0.227973</Reflectance>
+		<Ambient_Color>0, 0, 0, 1</Ambient_Color>
+		<Specular_Color>1, 0.0996295, 0, 1</Specular_Color>
+		<Diffuse_Color>0, 0.183159, 1, 1</Diffuse_Color>
+		<Emissive_Color>0, 0, 0, 1</Emissive_Color>
+		<Clear_Coat>0</Clear_Coat>
+		<Clear_Coat_Roughness>0.959686</Clear_Coat_Roughness>
+		<Clear_Coat_Strength>4.11622</Clear_Coat_Strength>
+	</Material>
+	<Lights>
+		<X>-18.8013</X>
+		<Y>31.7037</Y>
+		<Z>107.461</Z>
+	</Lights>
+	<Shadow>
+		<Bias>0.07</Bias>
+		<Normal_Bias>-4.53145</Normal_Bias>
+	</Shadow>
+</settings>
